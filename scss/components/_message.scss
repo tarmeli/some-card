@@ -1,0 +1,54 @@
+.message {
+    justify-content: center;
+    border-bottom: 1px solid #888888;
+    
+    &__button-group {
+        text-align: center;
+        margin: 10px auto;
+      }
+    &__header {
+        text-shadow: 1px;
+        color: #363636;
+        padding-bottom: calc(0.375em - 1px);
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        padding-top: calc(0.375em - 1px);
+        margin: 0.65em;
+        font-size: 1rem;
+        line-height: 1.5;
+        position: relative;
+        vertical-align: top;
+        outline: 0;
+    }
+    &__body {
+        background-color: #fff;
+        border-color: &black;
+        border-width: 1px;
+        color: #363636;
+        border-radius: 2px;
+        margin: 0.65em;
+        font-size: 1rem;
+        line-height: 1.5;
+        position: relative;
+        vertical-align: top;
+        outline: 0;
+    }
+    &__text {
+        margin: 1em;
+    }
+    &__container {
+        background-color: #ffffff;
+        padding: 1px;
+        border-radius: 5px;
+        margin: 5px 0 5px 0;
+    }
+    &__date {
+        font-size: 9px;
+        color: #bebebe
+    }
+    &__avatar {
+        float: right;
+        width: 50px;
+        height: 50px;
+    }
+}

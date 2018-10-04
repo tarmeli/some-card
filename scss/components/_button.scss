@@ -1,0 +1,37 @@
+.button {
+  border: 0;
+  background: 0;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: calc(0.375em - 1px);
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+  height: 2.25em;
+  line-height: 1.5;
+  position: relative;
+  vertical-align: top;
+  outline: 0;
+  transform: scale(10);
+  transition: all 0.25s ease-in-out;
+
+ &__liked {
+  color: #eb3030;
+ }
+
+ &:hover {
+  color: #f06c6c;
+  transform: scale(1.5);
+  transition: all 0.25s ease-in-out;
+ }
+
+ &:active {
+  color: #f5c3c3;
+  transform: scale(2);
+  transition: all 0.25s ease-in-out;
+ }
+}
