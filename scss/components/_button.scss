@@ -16,8 +16,7 @@
   position: relative;
   vertical-align: top;
   outline: 0;
-  transform: scale(10);
-  transition: all 0.25s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
  &__liked {
   color: #eb3030;
@@ -25,13 +24,13 @@
 
  &:hover {
   color: #f06c6c;
-  transform: scale(1.5);
-  transition: all 0.25s ease-in-out;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
  }
 
  &:active {
   color: #f5c3c3;
-  transform: scale(2);
-  transition: all 0.25s ease-in-out;
+  transform: scale(1.4);
+  transition: all 0.2s ease-in-out;
  }
 }

@@ -3,23 +3,30 @@ import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Button = ({
-  label, icon, liked, handleClick,
+  label, icon, handleClick, className, disabled,
 }) => (
   <React.Fragment>
-    <a
-      href="./"
+    <button
+      disabled={disabled}
       onClick={e => handleClick(e, label)}
-      className={liked && label === 'like' ? 'button button__liked' : 'button'}
+      className={className}
+      value={label}
     >
       <FontAwesomeIcon icon={icon} />
-    </a>
+    </button>
   </React.Fragment>
 );
+
+Button.defaultProps = {
+  className: 'button',
+  disabled: false,
+};
 
 Button.propTypes = {
   label: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,
-  liked: PropTypes.bool.isRequired,
+  className: PropTypes.string,
+  disabled: PropTypes.bool,
   handleClick: PropTypes.func.isRequired,
 };
 

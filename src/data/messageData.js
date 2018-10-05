@@ -5,6 +5,13 @@ const messageData = [
     sender: 'Tommi',
     message: 'My personal assistant is a joy, and I want to be safer. Fabulous bad ass candy, in ALL CAPS. #shortball #randomtweet',
     timestamp,
+    id: '4',
+    avatar: 'profile.png',
+  },
+  {
+    sender: 'Tommi',
+    message: 'My personal assistant is a joy, and I want to be safer. Fabulous bad ass candy, in ALL CAPS. #shortball #randomtweet',
+    timestamp,
     id: '1',
     avatar: 'profile.png',
   },

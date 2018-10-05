@@ -1,4 +1,4 @@
-const buttonData = [
+const cardButtonData = [
   {
     icon: 'thumbs-up',
     label: 'like',
@@ -13,4 +13,4 @@ const buttonData = [
   },
 ];
 
-export { buttonData };
+export { cardButtonData };
